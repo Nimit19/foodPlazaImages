@@ -6,17 +6,17 @@ const Restaurants = [
     shopLogoUrl:
       "https://github.com/Nimit19/foodPlazaImages/blob/master/FoodShopsLogo/lapinozLogo.jpg?raw=true",
     shopBg: {
-      bg1: "",
-      bg2: "",
-      bg3: "",
+      bg1: "https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/bg1.jpg?raw=true",
+      bg2: "https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/bg2.jpg?raw=true",
+      bg3: "https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/bg3.jpg?raw=true",
     },
     menuPage: [
       {
-        menuPageName: "",
+        menuPageName: "Takeaway",
         menuPageImage: "",
       },
       {
-        menuPageName: "",
+        menuPageName: "Dining",
         menuPageImage: "",
       },
     ],
