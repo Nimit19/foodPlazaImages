@@ -1,0 +1,43 @@
+-- La Pino'z Pizza
+INSERT INTO restaurant_food_categories (category_name, restaurant_id, food_category_id) VALUES
+('Pizzas', 1, 1),
+('Personal Slice Veg Pizza', 1, 1),
+('Classic Pizzas For Classic Maniacs', 1, 1),
+('Classic Pizza Pack Of 4 ', 1, 1),
+('Drinks (Beverages)', 1, 3),
+('Desserts', 1, 4),
+('Dips', 1, 13),
+
+-- McDonald's
+('Burgers', 2, 2),
+('Burger Combos', 2, 2),
+('McSaver Combos (2pc Combos)', 2, 2),
+('Fries & Sides', 2, 14),
+('Cakes, Brownies & Croissants', 2, 4),
+('Beverages', 2, 3),
+
+-- STARBUCKS
+('Coffee', 3, 3),
+('Puffs, Wraps, Sandwiches & Savoury Snacks', 3, 14),
+('Milkshake & Frappuccino', 3, 3),
+('Cold Beverages (Iced Coffee)', 3, 3),
+('Hot Beverages', 3, 3),
+('Ice Cream Scoops', 3, 15),
+('Cookies, Cakes & Desserts', 3, 4),
+
+-- Burger King
+('Burgers', 4, 2),
+('Whopper', 4, 2),
+('Friends & Family Combo', 4, 2),
+('Drinks (Beverages)', 4, 3),
+('Sides ', 4, 14),
+('Desserts', 4, 4),
+
+-- KFC
+('Chicken Chizza', 5, 5),
+('Burgers', 5, 2),
+('Peri Peri Chicken Strips & Leg Pc', 5, 5),
+('Hot & Crispy Chicken, Wings', 5, 5),
+('Boneless Chicken Popcorn', 5, 5),
+
+
