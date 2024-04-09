@@ -1,7 +1,0 @@
-INSERT INTO coupons (isPercent, discount, code, expiry_date, created_at, updated_at)
-VALUES
-  (false, 100, 'FOOD100', '2024-05-01'),
-  (false, 200, 'FOOD200', '2024-06-01'),
-  (false, 300, FOOD300', '2024-07-01'),
-  (false, 400, 'FOOD400', '2024-08-01'),
-  (false, 500, 'FOOD500', '2024-09-01'),
