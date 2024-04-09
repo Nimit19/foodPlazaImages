@@ -1,31 +1,33 @@
--- La Pino'z Pizza
+// 33
+
+-- La Pino'z Pizza 
 INSERT INTO food_items (food_name, image_url, description, available_quantity, price, is_popular_food, food_weather, delivery_charge, preparing_time, restaurant_id, restaurant_food_category_id)
 VALUES
-    ('Margherita Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p1.jpeg?raw=true', 'Classic cheese pizza with tomato sauce', 100, 450, true, 'WINTER', 2.50, '15 minutes', 1, 1),
-    ('Pepperoni Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p17.png?raw=trues', 'Traditional pizza with pepperoni slices', 90, 570, true, 'WINTER', 2.50, '15 minutes', 1, 1),
-    ('Supreme Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p14.png?raw=true', 'Loaded with various toppings', 80, 499, true, 'WINTER', 2.50, '15 minutes', 1, 1),
-    ('BBQ Chicken Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p4.jpeg?raw=true, 'Smokey BBQ chicken on a pizza', 85, 12.99, true, 'WINTER', 2.50, '15 minutes', 1, 1);
-    ('Chicken Alfredo Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p2.jpeg?raw=true', 'Creamy Alfredo sauce with grilled chicken', 80, 12.49, true, 'WINTER', 2.50, '15 minutes', 1, 1),
-    ('Meat Lovers Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p18.png?raw=true', 'Packed with various meats and cheeses', 80, 13.99, true, 'WINTER', 2.50, '15 minutes', 1, 1),
+    ('Margherita Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p1.jpeg?raw=true', 'Classic cheese pizza with tomato sauce', 100, 450, true, 'WINTER', 25, '15 minutes', 1, 1),
+    ('Pepperoni Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p17.png?raw=trues', 'Traditional pizza with pepperoni slices', 90, 570, true, 'WINTER', 25, '15 minutes', 1, 1),
+    ('Supreme Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p14.png?raw=true', 'Loaded with various toppings', 80, 499, true, 'WINTER', 25, '15 minutes', 1, 1),
+    ('BBQ Chicken Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p4.jpeg?raw=true', 'Smokey BBQ chicken on a pizza', 85, 850 , true, 'WINTER', 25, '15 minutes', 1, 1),
+    ('Chicken Alfredo Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p2.jpeg?raw=true', 'Creamy Alfredo sauce with grilled chicken', 80, 120, true, 'WINTER', 25, '15 minutes', 1, 1),
+    ('Meat Lovers Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p18.png?raw=true', 'Packed with various meats and cheeses', 80, 899, true, 'WINTER', 25, '15 minutes', 1, 1),
     
-    ('Vegetarian Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p10.jpg?raw=true', 'Abundant with fresh veggies', 95, 10.99, true, 'WINTER', 2.50, '15 minutes', 1, 1),
-    ('Hawaiian Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p11.jpg?raw=true', 'Sweet pineapple and ham on a pizza', 85, 11.49, true, 'WINTER', 2.50, '15 minutes', 1, 1),
-    ('Mushroom Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p5.jpg?raw=true', 'Loaded with fresh mushrooms and cheese', 90, 10.49, true, 'WINTER', 2.50, '15 minutes', 1, 1),
-    ('Veggie Delight Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p15.png?raw=true', 'Assortment of fresh vegetables on a pizza', 95, 10.99, true, 'WINTER', 2.50, '15 minutes', 1, 1),
+    ('Vegetarian Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p10.jpg?raw=true', 'Abundant with fresh veggies', 95, 199, true, 'WINTER', 25, '15 minutes', 1, 2),
+    ('Hawaiian Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p11.jpg?raw=true', 'Sweet pineapple and ham on a pizza', 85, 999, true, 'WINTER', 25, '15 minutes', 1, 2),
+    ('Mushroom Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p5.jpg?raw=true', 'Loaded with fresh mushrooms and cheese', 90, 550, true, 'WINTER', 25, '15 minutes', 1, 2),
+    ('Veggie Delight Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p15.png?raw=true', 'Assortment of fresh vegetables on a pizza', 95, 149, true, 'WINTER', 25, '15 minutes', 1, 2),
     
-    ('Buffalo Chicken Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p13.png?raw=true', 'Spicy buffalo chicken with blue cheese', 75, 12.49, true, 'WINTER', 2.50, '15 minutes', 1, 1),
-    ('Barbecue Bacon Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p3.jpeg?raw=true', 'Bacon and barbecue sauce on a pizza', 85, 12.99, true, 'WINTER', 2.50, '15 minutes', 1, 1),
-    ('Pesto Chicken Pizza', 'pesto_chicken_pizza.jpg', 'Grilled chicken with basil pesto sauce', 80, 12.99, true, 'WINTER', 2.50, '15 minutes', 1, 1),
-    ('Spinach and Feta Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p16.png?raw=true', 'Fresh spinach and tangy feta cheese', 85, 11.49, true, 'WINTER', 2.50, '15 minutes', 1, 1);
+    ('Buffalo Chicken Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p13.png?raw=true', 'Spicy buffalo chicken with blue cheese', 75, 480, true, 'WINTER', 25, '15 minutes', 1, 3),
+    ('Barbecue Bacon Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p3.jpeg?raw=true', 'Bacon and barbecue sauce on a pizza', 85, 520, true, 'WINTER', 25, '15 minutes', 1, 3),
+    ('Pesto Chicken Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p8.jpg?raw=true', 'Grilled chicken with basil pesto sauce', 80, 199, true, 'WINTER', 25, '15 minutes', 1, 3),
+    ('Spinach and Feta Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p16.png?raw=true', 'Fresh spinach and tangy feta cheese', 85, 149, true, 'WINTER', 25, '15 minutes', 1, 3),
     
-    ('Four Cheese Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p6.jpg?raw=true', 'Blend of four different cheeses', 90, 11.99, true, 'WINTER', 2.50, '15 minutes', 1, 1),
+    ('Four Cheese Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/p6.jpg?raw=true', 'Blend of four different cheeses', 90, 899, true, 'WINTER', 25, '15 minutes', 1, 4),
     
-    ('Lemon Lime Soda', 'lemon_lime_soda.jpg', 'Carbonated soft drink with citrus flavor', 90, 2.49, true, 'SUMMER', 1.00, '5 minutes', 3, 3),
-    ('Fruit Juice', 'fruit_juice.jpg', 'Freshly squeezed fruit juice', 95, 3.99, true, 'SUMMER', 1.00, '5 minutes', 3, 3),
+    ('Lemon Lime Soda', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/How-to-choose-fruit-juices-and-drinks-1024x1024.jpg?raw=true', 'Carbonated soft drink with citrus flavor', 90, 249, true, 'SUMMER', 15, '5 minutes', 1, 5),
+    ('Fruit Juice', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/c1.jpg?raw=trues', 'Freshly squeezed fruit juice', 95, 399, true, 'SUMMER', 15, '5 minutes', 1, 5),
 
-    ('Chocolate Brownie Pizza', 'chocolate_brownie_pizza.jpg', 'Warm chocolate brownie topped with vanilla ice cream and drizzled with chocolate sauce', 30, 11.99, true, 'WINTER', 2.50, '15 minutes', 1, 4),
-    ('Strawberry Cheesecake', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/Strawberry-cheesecake-recipe-6-of-8.jpg?raw=true', 'Classic American cheesecake with a graham cracker crust', 35, 8.99, true, 'WINTER', 2.50, '15 minutes', 1, 4),
-    ('Molten Chocolate Lava Cake', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/Easy-Molten-Chocolate-Lava-Cakes4.jpg?raw=true', 'Warm chocolate cake with a gooey molten center, served with vanilla ice cream', 40, 10.99, true, 'WINTER', 2.50, '15 minutes', 1, 4),
+    ('Chocolate Brownie Pizza', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/chocolate-pizza-index-658367a29a902.jpg?raw=true', 'Warm chocolate brownie topped with vanilla ice cream and drizzled with chocolate sauce', 30, 1000, true, 'WINTER', 25, '15 minutes', 1, 6),
+    ('Strawberry Cheesecake', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/Strawberry-cheesecake-recipe-6-of-8.jpg?raw=true', 'Classic American cheesecake with a graham cracker crust', 35, 8.99, true, 'WINTER', 250, '15 minutes', 1, 6),
+    ('Molten Chocolate Lava Cake', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/Easy-Molten-Chocolate-Lava-Cakes4.jpg?raw=true', 'Warm chocolate cake with a gooey molten center, served with vanilla ice cream', 40, 589, true, 'WINTER', 25, '15 minutes', 1, 6)
 
 
 -- McDonald's
@@ -33,9 +35,35 @@ INSERT INTO food_items (food_name, image_url, description, available_quantity, p
 VALUES
     ('Big Mac', 'big_mac.jpg', 'Double beef patty burger with special sauce', 50, 4.99, true, 'WINTER', 1.50, '10 minutes', 2, 2),
     ('McChicken', 'mcchicken.jpg', 'Crispy chicken patty sandwiched in a bun', 60, 3.99, true, 'WINTER', 1.50, '10 minutes', 2, 2),
-    ('Filet-O-Fish', 'filet_o_fish.jpg', 'Breaded fish fillet sandwich', 40, 4.49, true, 'WINTER', 1.50, '10 minutes', 2, 2),
-    ('Chicken McNuggets', 'chicken_nuggets.jpg', 'Golden crispy chicken nuggets', 70, 5.99, true, 'WINTER', 1.50, '10 minutes', 2, 2),
+    ('Double Cheeseburger', 'double_cheeseburger.jpg', 'Double beef patty with melted cheese and pickles', 50, 4.99, true, 'WINTER', 1.50, '10 minutes', 2, 2),
+    ('Big Tasty', 'big_tasty.jpg', 'Juicy beef patty with lettuce, tomato, and special sauce', 40, 5.99, true, 'WINTER', 1.50, '10 minutes', 2, 2),
+    ('McDouble', 'mcdouble.jpg', 'Double beef patty burger with cheese and pickles', 70, 3.99, true, 'WINTER', 1.50, '10 minutes', 2, 2),
+    ('Cheeseburger', 'cheeseburger.jpg', 'Beef patty with melted cheese, onions, and pickles', 80, 2.99, true, 'WINTER', 1.50, '10 minutes', 2, 2),
+    
+    ('Quarter Pounder with Cheese', 'quarter_pounder_cheese.jpg', 'Juicy beef patty topped with cheese, onions, and pickles', 60, 5.49, true, 'WINTER', 1.50, '10 minutes', 2, 2),
+    ('Big Mac Combo', 'big_mac_combo.jpg', 'Big Mac burger with fries and a drink', 30, 7.99, true, 'WINTER', 1.50, '12 minutes', 2, 2),
+    ('McChicken Combo', 'mcchicken_combo.jpg', 'McChicken sandwich with fries and a drink', 35, 6.99, true, 'WINTER', 1.50, '12 minutes', 2, 2),
+    ('Quarter Pounder Combo', 'quarter_pounder_combo.jpg', 'Quarter Pounder with Cheese burger with fries and a drink', 25, 8.49, true, 'WINTER', 1.50, '12 minutes', 2, 2);
+    
+    ('Chicken Legend McSaver', 'chicken_legend.jpg', 'Grilled or crispy chicken fillet with lettuce and mayo', 70, 4.99, true, 'WINTER', 1.50, '10 minutes', 2, 2),
+    ('Hamburger McSaver', 'hamburger.jpg', 'Plain beef patty burger with onions and pickles', 90, 2.49, true, 'WINTER', 1.50, '10 minutes', 2, 2),
+   
+    ('Fries', 'fries.jpg', 'Golden crispy potato fries', 100, 1.99, true, 'WINTER', 1.00, '5 minutes', 2, 3),
+    ('Onion Rings', 'onion_rings.jpg', 'Crispy battered onion rings', 60, 2.49, true, 'WINTER', 1.00, '5 minutes', 2, 14),
+    ('Mozzarella Sticks', 'mozzarella_sticks.jpg', 'Deep-fried breaded mozzarella cheese sticks', 50, 3.49, true, 'WINTER', 1.00, '5 minutes', 2, 14),
+    ('Side Salad', 'side_salad.jpg', 'Fresh mixed greens with dressing', 40, 2.99, true, 'WINTER', 1.00, '5 minutes', 2, 14);
+
+    ('Strawberry Sundae', 'strawberry_sundae.jpg', 'Creamy vanilla ice cream with strawberry syrup and whipped cream', 80, 2.49, true, 'WINTER', 1.00, '5 minutes', 2, 4),
+    ('Chocolate Sundae', 'chocolate_sundae.jpg', 'Rich chocolate ice cream with chocolate syrup and nuts', 70, 2.49, true, 'WINTER', 1.00, '5 minutes', 2, 4),
+    ('Hot Chocolate', 'hot_chocolate.jpg', 'Warm and comforting hot chocolate', 80, 1.99, true, 'WINTER', 0.50, '2 minutes', 2, 5),
+    
+    ('Soft Drinks', 'soft_drinks.jpg', 'Refreshing carbonated beverages', 120, 1.00, true, 'WINTER', 0.50, '2 minutes', 2, 5),
     ('McFlurry', 'mcflurry.jpg', 'Creamy soft-serve ice cream with toppings', 80, 2.99, true, 'WINTER', 1.00, '5 minutes', 2, 4);
+
+
+
+
+    ('Chicken McNuggets', 'chicken_nuggets.jpg', 'Golden crispy chicken nuggets', 70, 5.99, true, 'WINTER', 1.50, '10 minutes', 2, 2),
 
 -- STARBUCKS
 INSERT INTO food_items (food_name, image_url, description, available_quantity, price, is_popular_food, food_weather, delivery_charge, preparing_time, restaurant_id, restaurant_food_category_id)
