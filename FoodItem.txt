@@ -24,8 +24,8 @@ VALUES
     ('Fruit Juice', 'fruit_juice.jpg', 'Freshly squeezed fruit juice', 95, 3.99, true, 'SUMMER', 1.00, '5 minutes', 3, 3),
 
     ('Chocolate Brownie Pizza', 'chocolate_brownie_pizza.jpg', 'Warm chocolate brownie topped with vanilla ice cream and drizzled with chocolate sauce', 30, 11.99, true, 'WINTER', 2.50, '15 minutes', 1, 4),
-    ('New York Cheesecake', 'new_york_cheesecake.jpg', 'Classic American cheesecake with a graham cracker crust', 35, 8.99, true, 'WINTER', 2.50, '15 minutes', 1, 4),
-    ('Molten Chocolate Lava Cake', 'molten_chocolate_lava_cake.jpg', 'Warm chocolate cake with a gooey molten center, served with vanilla ice cream', 40, 10.99, true, 'WINTER', 2.50, '15 minutes', 1, 4),
+    ('Strawberry Cheesecake', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/Strawberry-cheesecake-recipe-6-of-8.jpg?raw=true', 'Classic American cheesecake with a graham cracker crust', 35, 8.99, true, 'WINTER', 2.50, '15 minutes', 1, 4),
+    ('Molten Chocolate Lava Cake', 'https://github.com/Nimit19/foodPlazaImages/blob/master/FoodImages/Lapinoz/Easy-Molten-Chocolate-Lava-Cakes4.jpg?raw=true', 'Warm chocolate cake with a gooey molten center, served with vanilla ice cream', 40, 10.99, true, 'WINTER', 2.50, '15 minutes', 1, 4),
 
 
 -- McDonald's
